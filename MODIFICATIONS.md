@@ -78,8 +78,8 @@ gives the same day numbers.
 
 ### 2. Word list loaded from a URL
 
-- `get_data_url()`: the `?vocab=` query parameter (`VOCAB_PARAM`), or `DEFAULT_DATA_URL`. **That constant
-  is still a placeholder** (`OWNER/REPO`) until the GitHub repo exists.
+- `get_data_url()`: the `?vocab=` query parameter (`VOCAB_PARAM`), or `DEFAULT_DATA_URL`, built from
+  `owner`/`repo` (`njg4ne/dictum-game`). Change those two if the repo moves.
 - `resolve()`: resolves against the page URL (so `?vocab=../data/all.json` works for local
   testing) and rejects anything that isn't http(s).
 - "Copy share link" puts the resolved (absolute) URL in `?vocab=`, so a relative value

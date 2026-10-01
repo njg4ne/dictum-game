@@ -7,7 +7,6 @@ import random
 from pyscript import document, window
 from pyscript.ffi import create_proxy, to_js
 
-# TODO: set to this repo's raw URL once the GitHub repo exists.
 owner = "njg4ne"
 repo = "dictum-game"
 DEFAULT_DATA_URL = f"https://raw.githubusercontent.com/{owner}/{repo}/main/data/all.json"
