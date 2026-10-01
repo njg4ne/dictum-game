@@ -1,0 +1,37 @@
+Copyright (c) 2026 njg4ne. All rights reserved.
+
+No permission is granted to use, copy, modify, merge, publish, distribute,
+sublicense, or sell copies of this software or its associated files, in whole
+or in part, without prior written permission from the copyright holders.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+-------------------------------------------------------------------------------
+Original work and third-party material
+-------------------------------------------------------------------------------
+
+W&L Dictum is a fork of Dictum by Aurorum, part of latin-vocabulary-tester:
+  https://github.com/Aurorum/latin-vocabulary-tester/tree/master/dictum
+  https://latinvocabularytester.com
+Copied from commit 679d0d573c9b5cbc245135e4ea5622826d98d3d2.
+
+The original HTML, CSS, images (docs/assets/, except WL-logo.svg and
+settings.svg), the word list data/all.json, and the game logic that
+docs/main.py was ported from are the work of Aurorum and its contributors.
+All rights to that material remain with its original authors. The upstream
+project carries no license; permission for this derivative work has been
+requested at:
+  https://github.com/Aurorum/latin-vocabulary-tester/discussions/25
+The copyright notice above covers only this fork's own changes, and grants no
+rights in the original material.
+
+The Washington and Lee University name, logo (docs/assets/WL-logo.svg), and
+brand colors are the property of Washington and Lee University and are used
+following its brand guide.
+
+docs/assets/settings.svg is drawn after the "settings" icon from Feather Icons
+(https://feathericons.com), Copyright (c) 2013-2017 Cole Bemis, MIT License.
+
+This project is for educational purposes only.
