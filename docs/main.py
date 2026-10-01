@@ -1,4 +1,4 @@
-# W&L Dictum (Latin Wordle), with the word list loaded from a ?data=<url> JSON URL.
+# W&L Dictum (Latin Wordle), with the word list loaded from a ?vocab=<url> JSON URL.
 # Game logic ported from https://github.com/Aurorum/latin-vocabulary-tester/tree/master/dictum
 import asyncio
 import json
@@ -11,6 +11,7 @@ from pyscript.ffi import create_proxy, to_js
 owner = "njg4ne"
 repo = "dictum-game"
 DEFAULT_DATA_URL = f"https://raw.githubusercontent.com/{owner}/{repo}/main/data/all.json"
+VOCAB_PARAM = "vocab"  # query parameter holding the word list URL
 CACHE_NAME = "dictum-data"  # Cache API store; entries keyed by the resolved data URL
 FETCHED_AT_HEADER = "X-Fetched-At"
 DAILY_PREFIX = "dictum:daily:"
@@ -131,14 +132,13 @@ def extract_words(data):
 
 def get_data_url():
     params = window.URLSearchParams.new(window.location.search)
-    param_name = "vocab"
-    if params.has(param_name) and params.get(param_name).strip():
-        return params.get(param_name).strip()
+    if params.has(VOCAB_PARAM) and params.get(VOCAB_PARAM).strip():
+        return params.get(VOCAB_PARAM).strip()
     return DEFAULT_DATA_URL
 
 
 def resolve(url):
-    """Absolute http(s) URL for a ?data= value. Raises ValueError."""
+    """Absolute http(s) URL for a ?vocab= value. Raises ValueError."""
     try:
         resolved = window.URL.new(url, window.location.href)
     except Exception:
@@ -229,7 +229,12 @@ def build_settings():
 
 
 def share_link(event):
-    link = window.location.origin + window.location.pathname + "?data=" + window.encodeURIComponent(data_url)
+    # Share the absolute URL, so a relative ?vocab= value still works from elsewhere.
+    try:
+        url = resolve(data_url)
+    except ValueError:
+        url = data_url
+    link = window.location.origin + window.location.pathname + "?" + VOCAB_PARAM + "=" + window.encodeURIComponent(url)
     window.navigator.clipboard.writeText(link)
     el("share-link").textContent = "Copied!"
 
