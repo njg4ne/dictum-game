@@ -25,8 +25,8 @@ https://raw.githubusercontent.com/<user>/<repo>/main/data/<file>.json
 (These send `Access-Control-Allow-Origin: *`. This is already verified.)
 
 ## Data loading
-- URL format: `index.html?data=<encoded JSON URL>`
-- No `data` param → use a hardcoded default raw URL (data/all.json in this repo).
+- URL format: `index.html?vocab=<encoded JSON URL>`
+- No `vocab` param → use a hardcoded default raw URL (data/all.json in this repo).
 - Accept any http(s) JSON URL. Validate: must parse as JSON and yield ≥1 usable word.
 - Cache: browser Cache API, store `dictum-data`, keyed by the resolved data URL.
   Value = the fetched JSON text, with the fetch time in an `X-Fetched-At` header.
@@ -49,8 +49,8 @@ An object keyed by id strings:
   and one to delete the whole `dictum-data` cache. Then reload so the current URL
   refetches.
 - Show the current data URL and when it was cached.
-- "Copy share link": copies `location.origin + location.pathname + '?data=' +
-  encodeURIComponent(currentUrl)`.
+- "Copy share link": copies `location.origin + location.pathname + '?vocab=' +
+  encodeURIComponent(currentUrl)`, where `currentUrl` is the resolved (absolute) data URL.
 
 ## Safety
 - Write all data-derived text with `textContent`, never `innerHTML`.
@@ -58,7 +58,7 @@ An object keyed by id strings:
 
 ## Done when
 - Default list plays with no query param.
-- A shared `?data=` link loads that list on first visit and comes from cache
+- A shared `?vocab=` link loads that list on first visit and comes from cache
   on later visits (verify in DevTools: no network request).
 - Clearing the cache forces a refetch.
 - A bad URL shows a friendly error.

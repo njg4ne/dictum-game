@@ -1,7 +1,7 @@
 # W&L Dictum
 
 A Latin Wordle for Washington and Lee that plays any JSON word list passed as
-`?data=<url>`. Forked by [njg4ne](https://github.com/njg4ne) from Dictum by Aurorum,
+`?vocab=<url>`. Forked by [njg4ne](https://github.com/njg4ne) from Dictum by Aurorum,
 **for educational purposes only**.
 See [PLAN.md](PLAN.md) for the full brief.
 
@@ -32,4 +32,4 @@ The W&L colors, typography and logo (`docs/assets/WL-logo.svg`) follow the
 ## Local testing
 
     python3 -m http.server 8000
-    open "http://localhost:8000/docs/?data=../data/all.json"
+    open "http://localhost:8000/docs/?vocab=../data/all.json"

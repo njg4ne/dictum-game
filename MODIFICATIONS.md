@@ -34,7 +34,7 @@ cd lvt && git sparse-checkout set dictum assets
 | Area | Original | This fork |
 |---|---|---|
 | Language | Vanilla JS (`scripts.js`) | Python running on MicroPython via PyScript 2026.7.3 (`docs/main.py`) |
-| Word lists | 3 built-in lists (GCSE, AS-level, Any), chosen with buttons | One list, from `?data=<url>`, falling back to `DEFAULT_DATA_URL` |
+| Word lists | 3 built-in lists (GCSE, AS-level, Any), chosen with buttons | One list, from `?vocab=<url>`, falling back to `DEFAULT_DATA_URL` |
 | Guess validation | Guess must be in `valid.json` (8,849 words) | Guess must be in the loaded list |
 | Data caching | Cache API, invalidated by the `VOCAB_LISTS_CACHE_VERSION` constant | Cache API store `dictum-data`, keyed by data URL; never invalidated automatically |
 | Daily word | `selectedList[day]` (entry whose id is the day number) | `words[day % len(words)]` |
@@ -78,10 +78,12 @@ gives the same day numbers.
 
 ### 2. Word list loaded from a URL
 
-- `get_data_url()`: the `?data=` query parameter, or `DEFAULT_DATA_URL`. **That constant
+- `get_data_url()`: the `?vocab=` query parameter (`VOCAB_PARAM`), or `DEFAULT_DATA_URL`. **That constant
   is still a placeholder** (`OWNER/REPO`) until the GitHub repo exists.
-- `resolve()`: resolves against the page URL (so `?data=../data/all.json` works for local
+- `resolve()`: resolves against the page URL (so `?vocab=../data/all.json` works for local
   testing) and rejects anything that isn't http(s).
+- "Copy share link" puts the resolved (absolute) URL in `?vocab=`, so a relative value
+  like `../data/all.json` still works when the link is opened elsewhere.
 - `extract_words()` accepts either an object keyed by id (sorted numerically, so the daily
   word is the same for everyone) or an array. It keeps only entries whose `word` is 5
   letters a–z after trimming and lowercasing, and returns
@@ -205,6 +207,6 @@ rest of the upstream project.
 - `find_word()` prints the answer to the browser console on every new word (daily start,
   streak start, next word). Remove it before release if spoilers matter.
 - Local run: `python3 -m http.server 8000` from the repo root, then open
-  `http://localhost:8000/docs/?data=../data/all.json`. Use `localhost`, not a LAN IP: the
+  `http://localhost:8000/docs/?vocab=../data/all.json`. Use `localhost`, not a LAN IP: the
   Cache API needs a secure context.
 - `data/two.json` is a 2-word list for quick testing.
