@@ -8,7 +8,9 @@ from pyscript import document, window
 from pyscript.ffi import create_proxy, to_js
 
 # TODO: set to this repo's raw URL once the GitHub repo exists.
-DEFAULT_DATA_URL = "https://raw.githubusercontent.com/OWNER/REPO/main/data/all.json"
+owner = "njg4ne"
+repo = "dictum-game"
+DEFAULT_DATA_URL = f"https://raw.githubusercontent.com/{owner}/{repo}/main/data/all.json"
 CACHE_NAME = "dictum-data"  # Cache API store; entries keyed by the resolved data URL
 FETCHED_AT_HEADER = "X-Fetched-At"
 DAILY_PREFIX = "dictum:daily:"
