@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>W&amp;L Dictum - Latin Wordle</title>
+		<link rel="icon" href="./assets/favicon.png" type="image/png" />
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+		<meta
+			name="description"
+			content="W&amp;L Dictum: a Latin Wordle that plays any word list given by URL. A fork of Dictum by Aurorum, for educational purposes."
+		/>
+		<link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+		<script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+		<link rel="stylesheet" type="text/css" href="./style.css" />
+		<link rel="stylesheet" type="text/css" href="./theme.css" />
+		<script type="mpy" src="./main.py"></script>
+	</head>
+
+	<body class="is-displaying-modal">
+		<header class="site-header">
+			<h1 class="site-title"><img src="./assets/WL-logo.svg" alt="W&amp;L" /> Dictum</h1>
+			<nav class="site-icons">
+				<a data-toggle="stats">
+					<img src="./assets/stats.svg" alt="View stats" />
+				</a>
+				<a data-toggle="instructions">
+					<img src="./assets/help.svg" alt="View instructions" />
+				</a>
+				<a data-toggle="settings">
+					<img src="./assets/settings.svg" alt="Settings" />
+				</a>
+			</nav>
+		</header>
+
+		<div id="modal" class="modal-wrapper">
+			<div class="modal-content">
+				<div id="statistics-screen">
+					<img src="./assets/close.svg" class="close-icon" alt="Close" data-toggle="stats" />
+					<h2 class="option-heading">Statistics</h2>
+
+					<p>The following stats apply to the Daily Word puzzles:</p>
+
+					<div class="daily-stats">
+						<img class="stats-image" src="./assets/owl.png" alt="" />
+						<div class="stats-number-wrapper">
+							<div class="stats-box">
+								<p id="daily-games-played" class="number-text">0</p>
+								<p class="number-explanation">Games played</p>
+							</div>
+							<div class="stats-box">
+								<p id="daily-answers-correct" class="number-text">0%</p>
+								<p class="number-explanation">correct</p>
+							</div>
+							<div class="stats-box">
+								<p id="daily-streak-count" class="number-text">0</p>
+								<p class="number-explanation">Daily Streak</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="stats-graph">
+						<div class="stats-graph-inner">
+							<div class="stats-graph-row">
+								<p class="stats-graph-digit">1</p>
+								<div id="daily-bar-1" class="stats-graph-bar"></div>
+							</div>
+							<div class="stats-graph-row">
+								<p class="stats-graph-digit">2</p>
+								<div id="daily-bar-2" class="stats-graph-bar"></div>
+							</div>
+							<div class="stats-graph-row">
+								<p class="stats-graph-digit">3</p>
+								<div id="daily-bar-3" class="stats-graph-bar"></div>
+							</div>
+							<div class="stats-graph-row">
+								<p class="stats-graph-digit">4</p>
+								<div id="daily-bar-4" class="stats-graph-bar"></div>
+							</div>
+							<div class="stats-graph-row">
+								<p class="stats-graph-digit">5</p>
+								<div id="daily-bar-5" class="stats-graph-bar"></div>
+							</div>
+							<div class="stats-graph-row">
+								<p class="stats-graph-digit">6</p>
+								<div id="daily-bar-6" class="stats-graph-bar"></div>
+							</div>
+							<div class="stats-graph-row">
+								<p class="stats-graph-digit">F</p>
+								<div id="daily-bar-7" class="stats-graph-bar"></div>
+							</div>
+						</div>
+					</div>
+
+					<p>The following stats apply to the Streaks puzzles:</p>
+
+					<div class="daily-stats">
+						<img class="stats-image" src="./assets/parchment.png" alt="" />
+						<div class="stats-number-wrapper">
+							<div class="stats-box">
+								<p id="streaks-games-played" class="number-text">0</p>
+								<p class="number-explanation">Games played</p>
+							</div>
+							<div class="stats-box">
+								<p id="streaks-answers-correct" class="number-text">0%</p>
+								<p class="number-explanation">correct</p>
+							</div>
+							<div class="stats-box">
+								<p id="streaks-highest" class="number-text">0</p>
+								<p class="number-explanation">Highest Streak</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="stats-graph-inner">
+						<div class="stats-graph-row">
+							<p class="stats-graph-digit">1</p>
+							<div id="streaks-bar-1" class="stats-graph-bar"></div>
+						</div>
+						<div class="stats-graph-row">
+							<p class="stats-graph-digit">2</p>
+							<div id="streaks-bar-2" class="stats-graph-bar"></div>
+						</div>
+						<div class="stats-graph-row">
+							<p class="stats-graph-digit">3</p>
+							<div id="streaks-bar-3" class="stats-graph-bar"></div>
+						</div>
+						<div class="stats-graph-row">
+							<p class="stats-graph-digit">4</p>
+							<div id="streaks-bar-4" class="stats-graph-bar"></div>
+						</div>
+						<div class="stats-graph-row">
+							<p class="stats-graph-digit">5</p>
+							<div id="streaks-bar-5" class="stats-graph-bar"></div>
+						</div>
+						<div class="stats-graph-row">
+							<p class="stats-graph-digit">6</p>
+							<div id="streaks-bar-6" class="stats-graph-bar"></div>
+						</div>
+						<div class="stats-graph-row">
+							<p class="stats-graph-digit">F</p>
+							<div id="streaks-bar-7" class="stats-graph-bar"></div>
+						</div>
+					</div>
+				</div>
+
+				<div id="instructions-screen">
+					<img
+						src="./assets/close.svg"
+						class="close-icon"
+						alt="Close"
+						data-toggle="instructions"
+					/>
+					<h2 class="option-heading">Instructions</h2>
+					<p>
+						The aim of the game is to guess a Latin word within six attempts. The answer could be an
+						inflection of any word, and you can submit any word in the current word list.
+					</p>
+					<p>After each guess, the colour of the tiles will change according to your guess:</p>
+					<ul>
+						<li>Green: correct letter in the correct location</li>
+						<li>Yellow: letter contained in the word, but wrong location</li>
+						<li>Grey: letter not contained in the word</li>
+					</ul>
+					<p>
+						The Daily Word changes at midnight (GMT) everyday, but you can keep going on Streaks for
+						as long as you please. Enjoy!
+					</p>
+				</div>
+
+				<div id="settings-screen">
+					<img src="./assets/close.svg" class="close-icon" alt="Close" data-toggle="settings" />
+					<h2 class="option-heading">Settings</h2>
+					<p>Word list:</p>
+					<p id="settings-url" class="settings-url"></p>
+					<p id="settings-cached"></p>
+					<div class="list-options">
+						<button id="share-link" class="option-button">Copy share link</button>
+						<button id="clear-this" class="option-button">Clear cached data (this list)</button>
+						<button id="clear-all" class="option-button">Clear cached data (all lists)</button>
+					</div>
+				</div>
+
+				<div id="option-screen">
+					<h2 class="option-heading">Select Option</h2>
+					<p id="loading-warning" class="loading-message is-visible">Just a second - still loading</p>
+					<p id="load-error" class="load-error"></p>
+					<div class="game-option">
+						<button id="start-daily" class="option-wrapper">
+							<img class="option-image" src="./assets/owl.png" alt="" />
+							<p class="option-title">Daily word</p>
+							<p>Attempt to find a word that changes every 24 hours</p>
+						</button>
+						<button id="start-streaks" class="option-wrapper">
+							<img class="option-image" src="./assets/parchment.png" alt="" />
+							<p class="option-title">Streaks</p>
+							<p>Keep going until you fail - endless Latin fun!</p>
+						</button>
+					</div>
+
+					<p class="option-subtext">
+						The Daily Word changes at midnight GMT each day. Words come from the current word list
+						(see Settings), and any word in that list can be submitted. Enjoy!
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="game">
+			<div class="game-board" id="game-board">
+				<div id="game-notice" class="game-notice is-hidden">
+					<p id="game-notice-text">Invalid word</p>
+				</div>
+
+				<div class="game-row is-not-completed" id="row1">
+					<div class="game-tile">
+						<p id="row1tile0" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row1tile1" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row1tile2" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row1tile3" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row1tile4" class="game-tile-letter"></p>
+					</div>
+				</div>
+				<div class="game-row is-not-completed" id="row2">
+					<div class="game-tile">
+						<p id="row2tile0" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row2tile1" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row2tile2" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row2tile3" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row2tile4" class="game-tile-letter"></p>
+					</div>
+				</div>
+				<div class="game-row is-not-completed" id="row3">
+					<div class="game-tile">
+						<p id="row3tile0" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row3tile1" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row3tile2" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row3tile3" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row3tile4" class="game-tile-letter"></p>
+					</div>
+				</div>
+				<div class="game-row is-not-completed" id="row4">
+					<div class="game-tile">
+						<p id="row4tile0" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row4tile1" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row4tile2" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row4tile3" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row4tile4" class="game-tile-letter"></p>
+					</div>
+				</div>
+				<div class="game-row is-not-completed" id="row5">
+					<div class="game-tile">
+						<p id="row5tile0" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row5tile1" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row5tile2" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row5tile3" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row5tile4" class="game-tile-letter"></p>
+					</div>
+				</div>
+				<div class="game-row is-not-completed" id="row6">
+					<div class="game-tile">
+						<p id="row6tile0" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row6tile1" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row6tile2" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row6tile3" class="game-tile-letter"></p>
+					</div>
+					<div class="game-tile">
+						<p id="row6tile4" class="game-tile-letter"></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="streak-stats">
+				<p>Streak: <span id="current-streak">0</span></p>
+				<p id="next-streak"><span id="next-streak-prefix"></span><a id="next-word-link">Next word</a></p>
+			</div>
+
+			<div id="copy-stats" class="copy-stats">
+				<a id="copy-stats-link">Copy score to clipboard</a>
+			</div>
+
+			<div id="word-meaning" class="word-meaning is-hidden">
+				<p id="word-definition"></p>
+				<p id="word-root"></p>
+				<p id="word-inflection"></p>
+			</div>
+
+			<div class="keyboard">
+				<div class="keyboard-row">
+					<button data-key="q" id="q-key"><span>q</span></button>
+					<button data-key="w" id="w-key"><span>w</span></button>
+					<button data-key="e" id="e-key"><span>e</span></button>
+					<button data-key="r" id="r-key"><span>r</span></button>
+					<button data-key="t" id="t-key"><span>t</span></button>
+					<button data-key="y" id="y-key"><span>y</span></button>
+					<button data-key="u" id="u-key"><span>u</span></button>
+					<button data-key="i" id="i-key"><span>i</span></button>
+					<button data-key="o" id="o-key"><span>o</span></button>
+					<button data-key="p" id="p-key"><span>p</span></button>
+				</div>
+				<div class="keyboard-row">
+					<button data-key="a" id="a-key"><span>a</span></button>
+					<button data-key="s" id="s-key"><span>s</span></button>
+					<button data-key="d" id="d-key"><span>d</span></button>
+					<button data-key="f" id="f-key"><span>f</span></button>
+					<button data-key="g" id="g-key"><span>g</span></button>
+					<button data-key="h" id="h-key"><span>h</span></button>
+					<button data-key="j" id="j-key"><span>j</span></button>
+					<button data-key="k" id="k-key"><span>k</span></button>
+					<button data-key="l" id="l-key"><span>l</span></button>
+				</div>
+				<div class="keyboard-row">
+					<button data-key="z" id="z-key"><span>z</span></button>
+					<button data-key="x" id="x-key"><span>x</span></button>
+					<button data-key="c" id="c-key"><span>c</span></button>
+					<button data-key="v" id="v-key"><span>v</span></button>
+					<button data-key="b" id="b-key"><span>b</span></button>
+					<button data-key="n" id="n-key"><span>n</span></button>
+					<button data-key="m" id="m-key"><span>m</span></button>
+					<button data-key="back" class="large-key">
+						<img src="./assets/back.svg" alt="Backspace" />
+					</button>
+					<button data-key="enter" class="large-key">
+						<img src="./assets/checkmark.svg" alt="Enter" />
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<footer class="site-footer">
+			<p>
+				W&amp;L Dictum is a fork by <a href="https://github.com/njg4ne">njg4ne</a> of
+				<a href="https://github.com/Aurorum/latin-vocabulary-tester/tree/master/dictum">Dictum</a>
+				by Aurorum (<a href="https://latinvocabularytester.com">latinvocabularytester.com</a>).
+				All credit for the original game goes to its authors.
+			</p>
+			<p class="site-notice">
+				For educational purposes only. This fork is pending the original authors' approval
+				(<a href="https://github.com/Aurorum/latin-vocabulary-tester/discussions/25">discussion</a>).
+			</p>
+		</footer>
+	</body>
+</html>

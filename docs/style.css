@@ -988,3 +988,47 @@ template {
 		margin-bottom: 16px;
 	}
 }
+
+/* --- URL-driven data additions --- */
+
+#settings-screen {
+	display: none;
+}
+
+.is-displaying-settings #settings-screen {
+	display: block;
+}
+
+.is-displaying-settings #option-screen {
+	display: none;
+}
+
+.settings-url {
+	font-family: monospace;
+	overflow-wrap: anywhere;
+}
+
+.loading-message.is-visible {
+	display: block;
+}
+
+.load-error {
+	display: none;
+	color: #b00020;
+	text-align: center;
+	overflow-wrap: anywhere;
+}
+
+.load-error.is-visible {
+	display: block;
+}
+
+.load-error.is-visible ~ .game-option {
+	opacity: 0.4;
+	pointer-events: none;
+}
+
+/* Upstream used overflow: scroll, which always draws scrollbar tracks around the modal. */
+.modal-wrapper {
+	overflow: auto;
+}
