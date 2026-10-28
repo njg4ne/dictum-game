@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+	<title>W&amp;L Dictum</title>
+	<style>
+		/* An open book on a tile, in W&L colors: W&L Blue tile, white lines, and two pages that are the game's own marks, a gold
+		   "present" tile and a green "correct" tile (W&L's Autumn Leaf and Cannan Green). On a dark tab the tile turns a soft blue and
+		   the lines navy. The book is IconPark "book-open" (Apache 2.0), recolored. Bold shapes only, so it reads at 16 px. */
+		.tile { fill: #003087; }
+		.ink { stroke: #fff; }
+		.left { fill: #f0b323; }
+		.right { fill: #00843d; }
+		@media (prefers-color-scheme: dark) {
+			.tile { fill: #a8c9dc; }
+			.ink { stroke: #003087; }
+		}
+	</style>
+	<rect class="tile" width="32" height="32" rx="6" />
+	<g class="ink" transform="translate(2.8 2.6) scale(0.55)" stroke-linejoin="round" stroke-width="5">
+		<path class="left" d="M5 7H16C20.4183 7 24 10.5817 24 15V42C24 38.6863 21.3137 36 18 36H5V7Z" />
+		<path class="right" d="M43 7H32C27.5817 7 24 10.5817 24 15V42C24 38.6863 26.6863 36 30 36H43V7Z" />
+	</g>
+</svg>

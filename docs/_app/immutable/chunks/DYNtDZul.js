@@ -1,0 +1,1 @@
+import{st as e}from"./6klcJOIi.js";var t=e({phase:`idle`,loaded:0,total:0,network:0}),n=()=>t.phase===`downloading`||t.phase===`starting`;export{t as n,n as t};

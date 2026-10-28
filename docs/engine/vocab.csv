@@ -1,0 +1,881 @@
+Chapter,Part of Speech,Latin,English
+1,pronoun,me,"me, myself"
+1,pronoun,quid,what
+1,noun (indeclinable),"nihil, n.",nothing
+1,adverb,non,not
+1,adverb,saepe,often
+1,conjunction,si,if
+1,verb (1),"amo, amare, amavi, amatum","to love, like (amabo te: please (I will love you))"
+1,verb (1),"cogito, cogitare, cogitavi, cogitatum","to think, ponder, consider, plan"
+1,verb (2),"debeo, debere, debui, debitum","to owe; ought, must"
+1,verb (1),"do, dare, dedi, datum","to give, offer"
+1,verb (1),"erro, errare, erravi, erratum","to wander, err, go astray, be mistaken"
+1,verb (1),"laudo, laudare, laudavi, laudatum",to praise
+1,verb (2),"moneo, monere, monui, monitum","to remind, advise, warn"
+1,verb (2),"salveo, salvere, -, -","to be well, be in good health (salve and salvete: hello)"
+1,verb (1),"servo, servare, servavi, servatum","to preserve, save, keep, guard"
+1,verb (1),"conservo, conservare, conservavi, conservatum","to preserve, conserve, maintain (stronger than servo)"
+1,verb (2),"terreo, terrere, terrui, territum","to frighten, terrify"
+1,verb (2),"valeo, valere, valui, valiturum","to be strong, have power; be well (vale and valete: good-bye, farewell)"
+1,verb (2),"video, videre, vidi, visum","to see; observe, understand"
+1,verb (1),"voco, vocare, vocavi, vocatum","to call, summon"
+2,noun (1),"fama, -ae, f.","rumour, report; fame, reputation"
+2,noun (1),"forma, -ae, f.","form, shape; beauty"
+2,noun (1),"fortuna, -ae, f.","fortune, luck"
+2,noun (1),"ira, -ae, f.","ire, anger"
+2,noun (1),"nauta, -ae, m.",sailor
+2,noun (1),"patria, -ae, f.","fatherland, native land, (one's) country"
+2,noun (1),"pecunia, -ae, f.",money
+2,noun (1),"philosophia, -ae, f.",philosophy (Greek philosophia: love of wisdom)
+2,noun (1),"poena, -ae, f.","penalty, punishment (idiom, poenas dare: to pay the penalty)"
+2,noun (1),"poeta, -ae, m.",poet
+2,noun (1),"porta, -ae, f.","gate, entrance"
+2,noun (1),"puella, -ae, f.",girl
+2,noun (1),"rosa, -ae, f.",rose
+2,noun (1),"sententia, -ae, f.","feeling, thought, opinion, vote, sentence"
+2,noun (1),"vita, -ae, f.",life; mode of life
+2,adjective,"antiquus, -a, -um","ancient, old-time"
+2,adjective,"magnus, -a, -um","large, great, important"
+2,adjective,"meus, -a, -um",my
+2,adjective,"multus, -a, -um","much, many"
+2,adjective,"tuus, -a, -um",your (used when speaking to one person)
+2,conjunction,et,and (et...et: both...and)
+2,conjunction,sed,but
+2,interjection,O,"O!, Oh! (commonly used with the vocative)"
+2,preposition,sine,without (takes ablative)
+3,noun (2),"ager, agri, m.","field, farm"
+3,noun (1),"agricola, -ae, m.",farmer
+3,noun (1),"amica, -ae, f.",friend
+3,noun (2),"amicus, -i, m.",friend
+3,noun (1),"femina, -ae, f.",woman
+3,noun (1),"filia, -ae, f.","daughter (dative and ablative plural, filiabus)"
+3,noun (2),"filius, -ii, m.",son
+3,noun (2),"numerus, -i, m.",number
+3,noun (2),"populus, -i, m.","the people, a people, a nation"
+3,noun (2),"puer, pueri, m.","boy; boys, children"
+3,noun (1),"sapientia, -ae, f.",wisdom
+3,noun (2),"vir, viri, m.","man, hero"
+3,adjective,"avarus, -a, -um","greedy, avaricious"
+3,adjective,"pauci, -ae, -a","few, a few (usually plural)"
+3,adjective,"Romanus, -a, -um",Roman
+3,preposition,de,"down from, from; concerning, about (takes ablative)"
+3,preposition,in (+ abl.),"in, on (takes ablative)"
+3,adverb,hodie,today
+3,adverb,semper,always
+3,verb (2),"habeo, habere, habui, habitum","to have, hold, possess, consider, regard"
+3,verb (1),"satio, satiare, satiavi, satiatum","to satisfy, sate"
+4,noun (2),"basium, -ii, n.",kiss
+4,noun (2),"bellum, -i, n.",war
+4,noun (2),"consilium, -ii, n.","plan, purpose, counsel, advice, judgement, wisdom"
+4,noun (1),"cura, -ae, f.","care, attention, caution, anxiety"
+4,noun (2),"donum, -i, n.","gift, present"
+4,noun (2),"exitium, -ii, n.","destruction, ruin"
+4,noun (2),"magister, magistri, m.","schoolmaster, teacher, master"
+4,noun (1),"magistra, -ae, f.","school mistress, teacher, mistress"
+4,noun (1),"mora, -ae, f.",delay
+4,noun (indeclinable),"nihil, n.",nothing
+4,noun (2),"oculus, -i, m.",eye
+4,noun (2),"officium, -ii, n.","duty, service"
+4,noun (2),"otium, -ii, n.","leisure, peace"
+4,noun (2),"periculum, -i, n.","danger, risk"
+4,noun (2),"remedium, -ii, n.","cure, remedy"
+4,adjective,"bellus, -a, -um","pretty, handsome, charming"
+4,adjective,"bonus, -a, -um","good, kind"
+4,adjective,"humanus, -a, -um","pertaining to man, human, humane, kind, refined, cultivated"
+4,adjective,"malus, -a, -um","bad, wicked, evil"
+4,adjective,"parvus, -a, -um","small, little"
+4,adjective,"stultus, -a, -um",foolish
+4,noun (2),"stultus, -i, m.",a fool
+4,adjective,"verus, -a, -um","true, real, proper"
+4,verb (1),"iuvo, iuvare, iuvi, iutum","to help, aid, assist; to please"
+4,verb (irregular),"sum, esse, fui, futurum","to be, exist"
+5,noun (1),"adulescentia, -ae, f.","youth, young manhood, youthfulness"
+5,noun (2),"animus, -i, m.","soul, spirit, mind; (plural) high spirits, pride, courage"
+5,noun (2),"caelum, -i, n.","sky, heaven"
+5,noun (1),"culpa, -ae, f.","fault, blame"
+5,noun (1),"gloria, -ae, f.","glory, fame"
+5,noun (2),"verbum, -i, n.",word
+5,pronoun,te,"you, yourself"
+5,adjective,"liber, libera, liberum",free
+5,adjective,"noster, nostra, nostrum","our, ours"
+5,adjective,"pulcher, pulchra, pulchrum","beautiful, handsome; fine"
+5,adjective,"sanus, -a, -um","sound, healthy, sane"
+5,conjunction,igitur,"therefore, consequently (postpositive)"
+5,enclitic,#NAME?,question (introduces questions the answer to which is uncertain)
+5,preposition,propter,"on account of, because of (takes accusative)"
+5,adverb,cras,tomorrow
+5,adverb,heri,yesterday
+5,"adverb, conjunction",quando,when (si quando: if ever)
+5,"adverb, noun (indeclinable)","satis, n.","enough, sufficient (-ly)"
+5,adverb,tum,"then, at that time; thereupon, in the next place"
+5,verb (1),"ceno, cenare, cenavi, cenatum",to dine
+5,verb (1),"culpo, culpare, culpavi, culpatum","to blame, censure"
+5,verb (2),"remaneo, remanere, remansi, remansum","to remain, stay behind, abide, continue"
+5,verb (2),"maneo, manere, mansi, mansum","to remain, stay, abide, continue"
+5,verb (1),"supero, superare, superavi, superatum","to be above, have the upper hand, surpass; overcome, conquer"
+6,noun (1),"dea, -ae, f.",goddess
+6,noun (2),"deus, -i, m.",god
+6,noun (1),"discipula, -ae, f.","learner, pupil, student"
+6,noun (2),"discipulus, -i, m.","learner, pupil, student"
+6,noun (1),"insidiae, -arum, f.","ambush, plot, treachery (always plural)"
+6,noun (2),"liber, libri, m.",book
+6,noun (2),"tyrannus, -i, m.","absolute ruler, tyrant"
+6,noun (2),"vitium, -ii, n.","fault, crime, vice"
+6,adjective,"Graecus, -a, -um",Greek
+6,noun (2),"Graecus, -i, m.",a Greek
+6,adjective,"perpetuus, -a, -um","perpetual, lasting, uninterrupted, continuous"
+6,adjective,"plenus, -a, -um","full, abundant, generous"
+6,adjective,"salvus, -a, -um","safe, sound"
+6,adjective,"secundus, -a, -um",second; favorable
+6,adjective,"vester, vestra, vestrum","your, yours (plural)"
+6,"conjunction, enclitic",#NAME?,and (enclitic) (appended to the second of two words to be joined)
+6,conjunction,sed,but
+6,"adverb, conjunction",ubi,"where, when"
+6,adverb,ibi,there
+6,adverb,nunc,"now, today, at present"
+6,adverb,quare,"because of which thing, therefore, wherefore, why"
+6,verb (irregular),"possum, posse, potui, -","to be able, can, could, have power"
+6,verb (1),"tolero, tolerare, toleravi, toleratum","to bear, endure"
+7,noun (3),"amor, amoris, m.",love
+7,noun (3),"carmen, carminis, n.","song, poem"
+7,noun (3),"civitas, civitatis, f.","state, citizenship"
+7,noun (3),"corpus, corporis, n.",body
+7,noun (3),"homo, hominis, m.","human being, man"
+7,noun (3),"labor, laboris, m.","labor, work, toil; a work, production"
+7,noun (1),"littera, -ae, f.","a letter of the alphabet; (plural) a letter, literature"
+7,noun (3),"mos, moris, m.","habit, custom, manner; (plural) habits, character"
+7,noun (3),"nomen, nominis, n.",name
+7,noun (3),"pax, pacis, f.",peace
+7,noun (1),"regina, -ae, f.",queen
+7,noun (3),"rex, regis, m.",king
+7,noun (3),"tempus, temporis, n.","time; occasion, opportunity"
+7,noun (1),"terra, -ae, f.","earth, ground, land, country"
+7,noun (3),"uxor, uxoris, f.",wife
+7,noun (3),"virgo, virginis, f.","maiden, virgin"
+7,noun (3),"virtus, virtutis, f.","manliness, courage, excellence, character, worth, virtue"
+7,adjective,"novus, -a, -um",new; strange
+7,preposition,post,"after, behind (takes accusative)"
+7,preposition,sub,"under, up under, close to (takes ablative with verbs of rest, takes accusative with verbs of motion)"
+7,verb (2),"audeo, audere, ausus sum, -",to dare
+7,verb (1),"neco, necare, necavi, necatum","to murder, kill"
+8,noun (3),"Cicero, Ciceronis, m.",Cicero
+8,noun (1),"copia, -ae, f.","abundance, supply; (plural) supplies, troops, forces"
+8,noun (3),"frater, fratris, m.",brother
+8,noun (3),"laus, laudis, f.","praise, glory, fame"
+8,noun (3),"libertas, libertatis, f.",liberty
+8,noun (3),"ratio, rationis, f.","reckoning, account; reason, judgement, consideration; system; manner, method"
+8,noun (3),"scriptor, scriptoris, m.","writer, author"
+8,noun (3),"soror, sororis, f.",sister
+8,noun (1),"victoria, -ae, f.",victory
+8,conjunction,dum,while
+8,preposition,ad,"to, up to, near to (takes accusative)"
+8,preposition,"ex, e","out of, from, from within; by reason of, on account of (takes ablative)"
+8,adverb,numquam,never
+8,adverb,tamen,"nevertheless, still"
+8,verb (3),"ago, agere, egi, actum","to drive, lead, do, act; pass, spend (gratias agere: to give thanks)"
+8,verb (1),"demonstro, demonstrare, demonstravi, demonstratum","to point out, show, demonstrate"
+8,verb (3),"disco, discere, didici, -",to learn
+8,verb (2),"doceo, docere, docui, doctum",to teach
+8,verb (3),"duco, ducere, duxi, ductum","to lead; consider, regard; prolong"
+8,verb (3),"gero, gerere, gessi, gestum","to carry, carry on, manage, conduct, accomplish, perform"
+8,verb (3),"scribo, scribere, scripsi, scriptum","to write, compose"
+8,verb (3),"traho, trahere, traxi, tractum","to draw, drag, derive"
+8,verb (3),"vinco, vincere, vici, victum","to conquer, overcome"
+9,noun (2),"locus, -i, m.","place; passage in literature (loca, -orum, n.: places, regions)"
+9,noun (2),"morbus, -i, m.","disease, sickness"
+9,noun (2),"studium, -ii, n.","eagerness, zeal, pursuit, study"
+9,pronoun,"hic, haec, hoc","this; the latter; he, she, it, they"
+9,pronoun,"ille, illa, illud","that; the former; the famous; he, she, it, they"
+9,pronoun,"iste, ista, istud","that of yours, that; such (sometimes with contemptuous force)"
+9,adjective,"alius, alia, aliud","other, another (alii...alii: some...others)"
+9,adjective,"alter, altera, alterum","the other (of two), second"
+9,adjective,"neuter, neutra, neutrum","not either, neither"
+9,adjective,"nullus, -a, -um","not any, no, none"
+9,adjective,"solus, -a, -um","alone, only, the only"
+9,adjective,"totus, -a, -um","whole, entire"
+9,adjective,"ullus, -a, -um",any
+9,adjective,"unus, -a, -um","one, single, alone"
+9,adjective,"uter, utra, utrum","either, which (of two)"
+9,conjunction,enim,"for, in fact, truly (postpositive)"
+9,preposition,in (+ acc.),"into, toward; against (takes accusative or ablative)"
+9,adverb,"nimis, nimium","too, too much, excessively"
+10,noun (1),"amicitia, -ae, f.",friendship
+10,noun (3),"cupiditas, cupiditatis, f.","desire, longing, passion, cupidity, avarice"
+10,noun (1),"hora, -ae, f.","hour, time"
+10,noun (1),"natura, -ae, f.",nature
+10,noun (3),"senectus, senectutis, f.",old age
+10,noun (3),"timor, timoris, m.",fear
+10,noun (3),"veritas, veritatis, f.",truth
+10,noun (1),"via, -ae, f.","way, road, street"
+10,noun (3),"voluptas, voluptatis, f.",pleasure
+10,adjective,"beatus, -a, -um","happy, fortunate, blessed"
+10,conjunction,quoniam,"since, inasmuch as"
+10,preposition,cum,with (takes ablative)
+10,verb (4),"audio, audire, audivi, auditum","to hear, listen to"
+10,verb (3i),"capio, capere, cepi, captum","to take, capture, seize, get"
+10,verb (3),"dico, dicere, dixi, dictum","to say, tell, speak; name, call"
+10,verb (3i),"facio, facere, feci, factum","to make, do, accomplish"
+10,verb (3i),"fugio, fugere, fugi, fugiturum","to flee, hurry away; go into exile; avoid, shun"
+10,verb (4),"venio, venire, veni, ventum",to come
+10,verb (4),"invenio, invenire, inveni, inventum","to come upon, find"
+10,verb (3),"vivo, vivere, vixi, victum",to live
+11,noun (3),"caput, capitis, n.",head; leader; beginning; life; heading; chapter
+11,noun (3),"consul, consulis, m.",consul
+11,noun (3),"nemo, neminis, m. or f.","no one, nobody"
+11,pronoun,"ego, mei",I
+11,pronoun,"tu, tui",you
+11,pronoun,"is, ea, id","this, that; he, she, it (demonstrative)"
+11,pronoun,"idem, eadem, idem",the same (demonstrative)
+11,adjective,"amicus, -a, -um",friendly
+11,adjective,"carus, -a, -um",dear
+11,conjunction,quod,because
+11,conjunction,"neque, nec","and not, nor (neque...neque (or nec...nec): neither...nor)"
+11,conjunction,autem,however; moreover (postpositive)
+11,adverb,bene,"well, satisfactorily, quite"
+11,adverb,etiam,even
+11,verb (3),"intellego, intellegere, intellexi, intellectum",to understand
+11,verb (3),"mitto, mittere, misi, missum","to send, let go"
+11,verb (4),"sentio, sentire, sensi, sensum","to feel, perceive, think, experience"
+12,noun (3),"adulescens, adulescentis, m.",young man
+12,noun (2),"annus, -i, m.",year
+12,noun (1),"Asia, -ae, f.",Asia
+12,noun (3),"Caesar, Caesaris, m.",Caesar
+12,noun (3),"mater, matris, f.",mother
+12,noun (2),"medicus, -i, m.","doctor, physician"
+12,noun (1),"medica, -ae, f.","doctor, physician"
+12,noun (3),"pater, patris, m.",father
+12,noun (1),"patientia, -ae, f.","suffering, patience, endurance"
+12,noun (2),"principium, -ii, n.",beginning
+12,adjective,"acerbus, -a, -um","harsh, bitter, grievous"
+12,preposition,pro,"in front of, before, on behalf of, for the sake of, in return for, instead of, for, as (takes ablative)"
+12,adverb,diu,for a long time
+12,adverb,nuper,recently
+12,verb (3),"amitto, amittere, amisi, amissum","to lose, let go"
+12,verb (3),"cado, cadere, cecidi, casurum",to fall ('casum' is an alternative fourth principal part)
+12,verb (1),"creo, creare, creavi, creatum",to create
+13,noun (1),"divitiae, -arum, f.","riches, wealth (always plural)"
+13,noun (2),"factum, -i, n.","deed, act, achievement"
+13,noun (2),"signum, -i, n.","sign, signal, indication, seal"
+13,pronoun,"ipse, ipsa, ipsum","myself, yourself, himself, herself, itself (etc.); the very, the actual (intensive)"
+13,pronoun,"quisque, quidque","each one, each person (indefinite)"
+13,pronoun,sui,"himself, herself, itself, themselves (reflexive)"
+13,adjective,"doctus, -a, -um","taught, learned, skilled"
+13,adjective,"fortunatus, -a, -um","lucky, fortunate, happy"
+13,adjective,"suus, -a, -um","his own, her own, its own, their own (reflexive possessive)"
+13,conjunction,nam,for
+13,adverb,ante,"before, in front of; previously"
+13,preposition,per,through (takes accusative)
+13,adverb,olim,"at that time, once, formerly; in the future"
+13,verb (3),"alo, alere, alui, altum","to nourish, support, sustain, increase, cherish"
+13,verb (3),"diligo, diligere, dilexi, dilectum","to esteem, love"
+13,verb (3),"iungo, iungere, iunxi, iunctum",to join
+13,verb (1),"sto, stare, steti, statum","to stand, stand still, stand firm"
+14,noun (3i),"animal, animalis, n.","a living creature, animal"
+14,noun (1),"aqua, -ae, f.",water
+14,noun (3i),"ars, artis, f.","art, skill"
+14,noun (3i),"auris, auris, f.",ear
+14,noun (3i),"civis, civis, m. and f.",citizen
+14,noun (3),"ius, iuris, n.","right, justice"
+14,noun (3i),"mare, maris, n.",sea
+14,noun (3i),"mors, mortis, f.",death
+14,noun (3i),"nubes, nubis, f.",cloud
+14,noun (3),"os, oris, n.","mouth, face"
+14,noun (3i),"pars, partis, f.","part, share"
+14,noun (1),"Roma, -ae, f.",Rome
+14,noun (1),"turba, -ae, f.","uproar, disturbance, mob, crowd, multitude"
+14,noun (3i),"urbs, urbis, f.",city
+14,noun (3i),"vis, vis, f.","force, power, violence"
+13,preposition,"ab, a","away from, from; by (takes ablative)"
+14,preposition,trans,across (takes accusative)
+14,verb (1),"appello, appellare, appellavi, appellatum","to speak to, address (as), call, name"
+14,verb (3),"curro, currere, cucurri, cursum","to run, rush, move quickly"
+14,verb (1),"muto, mutare, mutavi, mutatum","to change, alter; exchange"
+14,verb (2),"teneo, tenere, tenui, tentum","to hold, keep, possess; restrain"
+14,verb (1),"vito, vitare, vitavi, vitatum","to avoid, shun"
+15,noun (1),"Italia, -ae, f.",Italy
+15,noun (1),"memoria, -ae, f.","memory, recollection"
+15,noun (3),"tempestas, tempestatis, f.","period of time, season; weather, storm"
+15,adjective,centum,a hundred
+15,adjective,mille,thousand; (plural) thousands
+15,adjective,"miser, misera, miserum","wretched, miserable, unfortunate"
+15,preposition,inter,"between, among (takes accusative)"
+15,adverb,itaque,"and so, therefore"
+15,verb (3),"committo, committere, commisi, commissum","to entrust, commit"
+15,verb (1),"exspecto, exspectare, exspectavi, exspectatum","to look for, expect, await"
+15,verb (3i),"iacio, iacere, ieci, iactum","to throw, hurl"
+15,verb (3i),"eicio, eicere, eieci, eiectum","to throw out, drive out"
+15,verb (2),"timeo, timere, timui, -","to fear, be afraid of, be afraid"
+15,"adjective, cardinal","unus, -a, -um",one
+15,"adjective, cardinal","duo, duae, duo",two (always plural)
+15,"adjective, cardinal","tres, tria",three
+15,"adjective, cardinal",quattuor,four
+15,"adjective, cardinal",quinque,five
+15,"adjective, cardinal",sex,six
+15,"adjective, cardinal",septem,seven
+15,"adjective, cardinal",octo,eight
+15,"adjective, cardinal",novem,nine
+15,"adjective, cardinal",decem,ten
+15,"adjective, cardinal",undecim,eleven
+15,"adjective, cardinal",duodecim,twelve
+15,"adjective, cardinal",tredecim,thirteen
+15,"adjective, cardinal",quattuordecim,fourteen
+15,"adjective, cardinal",quindecim,fifteen
+15,"adjective, cardinal",sedecim,sixteen
+15,"adjective, cardinal",septendecim,seventeen
+15,"adjective, cardinal",duodeviginti,eighteen (literally two from twenty)
+15,"adjective, cardinal",undeviginti,nineteen (literally one from twenty)
+15,"adjective, cardinal",viginti,twenty
+15,"adjective, cardinal",viginti unus,twenty-one (also unus et viginti)
+15,"adjective, cardinal",viginti duo,twenty-two (also duo et viginti)
+15,"adjective, cardinal",viginti tres,twenty-three (also tres et viginti)
+15,"adjective, cardinal",viginti quattuor,twenty-four (also quattuor et viginti)
+15,"adjective, cardinal",viginti quinque,twenty-five (also quinque et viginti)
+15,"adjective, cardinal",triginta,thirty
+15,"adjective, cardinal",quadraginta,forty
+15,"adjective, cardinal",quinquaginta,fifty
+15,"adjective, cardinal",sexaginta,sixty
+15,"adjective, cardinal",septuaginta,seventy
+15,"adjective, cardinal",octoginta,eighty
+15,"adjective, cardinal",nonaginta,ninety
+15,"adjective, ordinal","primus, -a, -um",first
+15,"adjective, ordinal","secundus, -a, -um",second
+15,"adjective, ordinal","tertius, -a, -um",third
+15,"adjective, ordinal","quartus, -a, -um",fourth
+15,"adjective, ordinal","quintus, -a, -um",fifth
+15,"adjective, ordinal","sextus, -a, -um",sixth
+15,"adjective, ordinal","septimus, -a, -um",seventh
+15,"adjective, ordinal","octavus, -a, -um",eighth
+15,"adjective, ordinal","nonus, -a, -um",ninth
+15,"adjective, ordinal","decimus, -a, -um",tenth
+15,"adjective, ordinal","undecimus, -a, -um",eleventh
+15,"adjective, ordinal","duodecimus, -a, -um",twelfth
+15,"adjective, ordinal","tertius decimus, -a, -um",thirteenth
+15,"adjective, ordinal","quartus decimus, -a, -um",fourteenth
+15,"adjective, ordinal","quintus decimus, -a, -um",fifteenth
+15,"adjective, ordinal","sextus decimus, -a, -um",sixteenth
+15,"adjective, ordinal","septimus decimus, -a, -um",seventeenth
+15,"adjective, ordinal","duodevicesimus, -a, -um",eighteenth (literally two from twenty)
+15,"adjective, ordinal","undevicesimus, -a, -um",nineteenth (literally one from twenty)
+15,"adjective, ordinal","vicesimus, -a, -um",twentieth
+15,"adjective, ordinal","vicesimus primus, -a, -um",twenty-first
+15,"adjective, ordinal","vicesimus secundus, -a, -um",twenty-second
+15,"adjective, ordinal","vicesimus tertius, -a, -um",twenty-third
+15,"adjective, ordinal","vicesimus quartus, -a, -um",twenty-fourth
+15,"adjective, ordinal","vicesimus quintus, -a, -um",twenty-fifth
+15,"adjective, ordinal",tricesimus,thirtieth
+15,"adjective, ordinal",quadragesimus,fortieth
+15,"adjective, ordinal",quinquagesimus,fiftieth
+15,"adjective, ordinal",sexagesimus,sixtieth
+15,"adjective, ordinal",septuagesimus,seventieth
+15,"adjective, ordinal",octogesimus,eightieth
+15,"adjective, ordinal",nonagesimus,ninetieth
+16,noun (3),"aetas, aetatis, f.","period of life, life, age, an age, time"
+16,noun (3),"auditor, auditoris, m.","hearer, listener, member of an audience"
+16,noun (1),"clementia, -ae, f.","mildness, gentleness, mercy"
+16,noun (3i),"mens, mentis, f.","mind, thought, intention"
+16,noun (1),"satura, -ae, f.",satire
+16,adjective,"acer, acris, acre","sharp, keen, eager; severe, fierce"
+16,adjective,"brevis, breve","short, small, brief"
+16,adjective,"celer, celeris, celere","swift, quick, rapid"
+16,adjective,"difficilis, difficile","hard, difficult, troublesome"
+16,adjective,"dulcis, dulce","sweet; pleasant, agreeable"
+16,adjective,"facilis, facile","easy, agreeable"
+16,adjective,"fortis, forte","strong, brave"
+16,adjective,ingens,huge (genitive ingentis)
+16,adjective,"iucundus, -a, -um","pleasant, delightful, agreeable, pleasing"
+16,adjective,"longus, -a, -um",long
+16,adjective,"omnis, omne","every, all"
+16,adjective,potens,"able, powerful, mighty, strong (genitive potentis)"
+16,"adjective, noun (3)","senex, senis, m.","old, aged; old man"
+16,adverb,quam,how
+16,verb (3),"rego, regere, rexi, rectum","to rule, guide, direct"
+17,noun (2),"libellus, -i, m.",little book
+17,pronoun,"qui, quae, quod","who, which, what, that"
+17,adjective,"caecus, -a, -um",blind
+17,adjective,"levis, leve","light, slight, easy, trivial"
+17,conjunction,aut,or (aut...aut: either...or)
+17,adverb,cito,quickly
+17,adverb,quoque,"also, too"
+17,verb (3),"admitto, admittere, admisi, admissum","to admit, receive, let in"
+17,verb (irregular),"-, coepisse, coepi, coeptum",began (only used in the perfect system)
+17,verb (3i),"cupio, cupere, cupivi, cupitum","to desire, wish, long for"
+17,verb (2),"deleo, delere, delevi, deletum","to destroy, wipe out, erase"
+17,verb (1),"desidero, desiderare, desideravi, desideratum","to desire, long for, miss"
+17,verb (3i),"incipio, incipere, incepi, inceptum",to begin
+17,verb (1),"navigo, navigare, navigavi, navigatum","to sail, navigate"
+17,verb (3),"neglego, neglegere, neglexi, neglectum","to neglect, disregard"
+17,verb (1),"recito, recitare, recitavi, recitatum","to read aloud, recite"
+18,noun (3),"flumen, fluminis, n.",river
+18,noun (3),"genus, generis, n.","origin, kind, sort, class"
+18,noun (3i),"hostis, hostis, m.",an enemy; (plural) the enemy
+18,noun (2),"ludus, -i, m.","game, sport; school"
+18,noun (3),"probitas, probitatis, f.","uprightness, honesty"
+18,noun (1),"scientia, -ae, f.",knowledge
+18,adjective,"clarus, -a, -um","clear, bright; renowned, famous, illustrious"
+18,adjective,"mortalis, mortale",mortal
+18,adverb,cur,why
+18,adverb,deinde,"thereupon, next, then"
+18,verb (3),"fluo, fluere, fluxi, fluxum",to flow
+18,verb (3),"lego, legere, legi, lectum","to pick out, choose; read"
+18,verb (2),"misceo, miscere, miscui, mixtum","to mix, stir up, disturb"
+18,verb (2),"moveo, movere, movi, motum","to move; arouse, affect"
+18,verb (2),"videor, videri, visus sum, -","to be seen, seem, appear"
+19,noun (2),"argumentum, -i, n.","proof, evidence, argument"
+19,noun (3),"auctor, auctoris, m.","increaser, author, originator"
+19,noun (2),"beneficium, -ii, n.","benefit, kindness; favor"
+19,noun (1),"familia, -ae, f.","household, family"
+19,noun (1),"Graecia, -ae, f.",Greece
+19,noun (3),"iudex, iudicis, m.","judge, juror"
+19,noun (2),"iudicium, -ii, n.","judgement, decision, opinion; trial"
+19,noun (3),"scelus, sceleris, n.","evil deed, crime, sin, wickedness"
+19,pronoun,"quis?, quid?","who?, whose?, whom?, what?, which?"
+19,adjective,"qui?, quae?, quod?","what?, which?, what kind of?"
+19,adjective,"certus, -a, -um","definite, sure, certain, reliable"
+19,adjective,"gravis, grave","heavy, weighty, serious, important, severe, grievous"
+19,adjective,"immortalis, immortale","not subject to death, immortal"
+19,conjunction,at,"but; but, mind you; but, you say"
+19,conjunction,nisi,"if...not, unless; except"
+19,preposition,contra,against (takes accusative)
+19,adverb,iam,"now; already, soon"
+19,verb (1),"delecto, delectare, delectavi, delectatum","to delight, charm, please"
+19,verb (1),"libero, liberare, liberavi, liberatum","to free, liberate"
+19,verb (1),"paro, parare, paravi, paratum","to prepare, provide, get, obtain"
+20,noun (2),"coniurati, -orum, m.",conspirators (always plural)
+20,noun (4),"cornu, -us, n.",horn
+20,noun (4),"fructus, -us, m.","fruit, profit, benefit, enjoyment"
+20,noun (4),"genu, -us, n.",knee
+20,noun (4),"manus, -us, f.","hand, band; handwriting"
+20,noun (4),"metus, -us, m.","fear, dread, anxiety"
+20,noun (3i),"mons, montis, m.",mountain
+20,noun (4),"senatus, -us, m.",senate
+20,noun (4),"sensus, -us, m.","feeling, sense"
+20,noun (3),"servitus, servitutis, f.","servitude, slavery"
+20,noun (4),"spiritus, -us, m.","breath, breathing; spirit, soul"
+20,noun (4),"versus, -us, m.",line of verse
+20,adjective,"communis, commune","common, general, of the community, for the community"
+20,adjective,"dexter, dextra, dextrum","right, right-hand"
+20,adjective,"sinister, sinistra, sinistrum","left, left-hand"
+20,verb (2),"careo, carere, carui, cariturus","to be without, be deprived of, want, lack; be free from (takes ablative of separation)"
+20,verb (3),"defendo, defendere, defendi, defensum","to ward off; defend, protect"
+20,verb (3),"discedo, discedere, discessi, discessum","to go away, depart"
+20,verb (irregular),"-, odisse, odi, osurum",to hate
+20,verb (2),"prohibeo, prohibere, prohibui, prohibitum","to keep (back), prevent, hinder, restrain, prohibit"
+20,verb (1),"pronuntio, pronuntiare, pronuntiavi, pronuntiatum","to proclaim, announce; declaim; pronounce"
+21,noun (1),"casa, -ae, f.","house, cottage, hut"
+21,noun (1),"causa, -ae, f.","cause, reason; case, situation; (abl. causa plus a preceding gen.) for the sake of, on account of"
+21,noun (1),"fenestra, -ae, f.",window
+21,noun (3i),"finis, finis, m.","end, limit, boundary, purpose; (plural) boundaries, territory"
+21,noun (3i),"gens, gentis, f.","clan, race, nation, people"
+21,noun (2),"mundus, -i, m.","world, universe"
+21,noun (3i),"navis, navis, f.","ship, boat"
+21,noun (3),"salus, salutis, f.","health, safety; greeting"
+21,noun (1),"Troia, -ae, f.",Troy
+21,noun (2),"vicinus, -i, m.",neighbor
+21,noun (1),"vicina, -ae, f.",neighbor
+21,noun (2),"vulgus, -i, m.","the common people, mob, rabble"
+21,adjective,"asper, aspera, asperum","rough, harsh"
+21,conjunction,"atque, ac","and, and also, and even"
+21,adverb,iterum,"again, a second time"
+21,verb (2),"contineo, continere, continui, contentum","to hold together, contain, keep, enclose, restrain"
+21,verb (2),"iubeo, iubere, iussi, iussum","to bid, order, command"
+21,verb (1),"laboro, laborare, laboravi, laboratum","to labor, be in distress"
+21,verb (3i),"rapio, rapere, rapui, raptum","to seize, snatch, carry away"
+21,verb (3),"relinquo, relinquere, reliqui, relictum","to leave behind, leave, abandon, desert"
+21,verb (4),"scio, scire, scivi, scitum",to know
+21,verb (3),"tango, tangere, tetigi, tactum",to touch
+22,noun (5),"dies, diei, m.",day
+22,noun (2),"ferrum, -i, n.",iron; sword
+22,noun (5),"fides, fidei, f.","faith, trust, trustworthiness, fidelity, promise, guarantee, protection"
+22,noun (3i),"ignis, ignis, m.",fire
+22,noun (2),"modus, -i, m.","measure, bound, limit; manner, method, mode, way"
+22,noun (5),"res, rei, f.","thing, matter, business, affair"
+22,noun (5),"spes, spei, f.",hope
+22,adjective,"aequus, -a, -um","level, even; calm; equal, just; favorable"
+22,adjective,"felix, felicis","lucky, fortunate, happy"
+22,adjective,"incertus, -a, -um","uncertain, unsure, doubtful"
+22,adjective,"Latinus, -a, -um",Latin
+22,adjective,"medius, -a, -um",middle
+22,adverb,quondam,"formerly, once"
+22,"adverb, preposition",ultra,"on the other side, beyond (takes accusative)"
+22,adverb,protinus,immediately
+22,verb (3),"cerno, cernere, crevi, cretum","to distinguish, discern, perceive"
+22,verb (3i),"eripio, eripere, eripui, ereptum","to snatch away, take away; rescue"
+22,verb (irregular),"inquit, -, -, -","he says, he said (defective verb placed after one or more words of direct quotation)"
+22,verb (3),"tollo, tollere, sustuli, sublatum","to raise, lift up; take away, remove, destroy"
+23,noun (3i),"arx, arcis, f.","citadel, stronghold"
+23,noun (3),"dux, ducis, m.","leader, guide; commander, general"
+23,noun (2),"equus, -i, m.",horse
+23,noun (1),"hasta, -ae, f.",spear
+23,noun (1),"insula, -ae, f.",island
+23,noun (3),"litus, litoris, n.","shore, coast"
+23,noun (3),"miles, militis, m.",soldier
+23,noun (3),"orator, oratoris, m.","orator, speaker"
+23,noun (3),"sacerdos, sacerdotis, m.",priest
+23,pronoun,"aliquis, aliquid","someone, somebody, something"
+23,pronoun,"quisquis, quidquid","whoever, whatever"
+23,adjective,"magnanimus, -a, -um","great-hearted, brave, magnanimous"
+23,adverb,umquam,"ever, at any time"
+23,verb (1),"educo, educare, educavi, educatum","to bring up, educate"
+23,verb (2),"gaudeo, gaudere, gavisus sum, -","to be glad, rejoice"
+23,verb (3),"ostendo, ostendere, ostendi, ostentum","to exhibit, show, display"
+23,verb (3),"peto, petere, petivi, petitum","to seek, aim at, beg, beseech"
+23,verb (3),"premo, premere, pressi, pressum","to press, press hard, pursue"
+23,verb (3),"opprimo, opprimere, oppressi, oppressum","to suppress, overwhelm, overpower, check"
+23,verb (3),"verto, vertere, verti, versum",to turn; change
+24,noun (3),"Carthago, Carthaginis, f.",Carthage (a city in North Africa)
+24,noun (1),"fabula, -ae, f.","story, tale; play"
+24,noun (3),"imperator, imperatoris, m.","general, commander-in-chief, emperor"
+24,noun (2),"imperium, -ii, n.","power to command, supreme power, authority, command, control"
+24,noun (2),"perfugium, -ii, n.","refuge, shelter"
+24,noun (2),"servus, -i, m.",slave
+24,noun (1),"serva, -ae, f.",slave
+24,noun (2),"solacium, -ii, n.","comfort, relief"
+24,noun (3),"vulnus, vulneris, n.",wound
+24,prefix,"re-, red-","again, back"
+24,conjunction,ut (+ indic.),"just as, when"
+24,adverb,postea,afterwards
+24,verb (3i),"accipio, accipere, accepi, acceptum","to take (to one's self), receive, accept"
+24,verb (3i),"excipio, excipere, excepi, exceptum","to take out, except; take, receive, capture"
+24,verb (3i),"recipio, recipere, recepi, receptum","to take back, regain, admit, receive"
+24,verb (3),"pello, pellere, pepuli, pulsum","to strike, push, drive out, banish"
+24,verb (3),"expello, expellere, expuli, expulsum","to drive out, expel, banish"
+24,verb (1),"narro, narrare, narravi, narratum","to tell, report, narrate"
+24,verb (3),"quaero, quaerere, quaesivi, quaesitum","to seek, look for, strive for; ask, inquire, inquire into"
+24,verb (2),"rideo, ridere, risi, risum","to laugh, laugh at"
+25,noun (1),"lingua, -ae, f.",tongue; language
+25,adjective,ferox,"fierce, savage (genitive ferocis)"
+25,adjective,"fidelis, fidele","faithful, loyal"
+25,adjective,"geminus, -a, -um",twin
+25,adjective,sapiens,"wise, judicious; (as a noun) a wise man, philosopher (genitive sapientis)"
+25,adjective,"ultimus, -a, -um","farthest, extreme; last, final"
+25,adverb,dehinc,then
+25,adverb,hic,here
+25,verb (irregular),"ait, -, -, -","he says, they say, assert (or aiunt)"
+25,verb (3),"credo, credere, credidi, creditum","to believe, trust"
+25,verb (2),"iaceo, iacere, iacui, -","to lie, lie prostrate, lie dead"
+25,verb (1),"nego, negare, negavi, negatum","to deny, say that...not"
+25,verb (4),"nescio, nescire, nescivi, nescitum","not to know, be ignorant"
+25,verb (1),"nuntio, nuntiare, nuntiavi, nuntiatum","to announce, report, relate"
+25,verb (3i),"patefacio, patefacere, patefeci, patefactum","to make open, open; disclose, expose"
+25,verb (1),"puto, putare, putavi, putatum","to clean, trim; reckon, suppose, judge, think, imagine"
+25,verb (1),"spero, sperare, speravi, speratum","to hope for, hope"
+25,verb (3i),"suscipio, suscipere, suscepi, susceptum",to undertake
+26,noun (1),"cena, -ae, f.",dinner
+26,noun (2),"forum, -i, n.","marketplace, forum"
+26,noun (3),"lex, legis, f.","law, statute"
+26,noun (3),"limen, liminis, n.",threshold
+26,noun (3),"lux, lucis, f.",light
+26,noun (1),"mensa, -ae, f.","table, dining, dish, course (mensa secunda: dessert)"
+26,noun (3i),"nox, noctis, f.",night
+26,noun (2),"somnus, -i, m.",sleep
+26,"pronoun, adjective","quidam, quaedam, quiddam","(pron.) a certain one, certain thing, someone, something; (adj.) a certain, some"
+26,adjective,"pudicus, -a, -um","modest, chaste"
+26,adjective,"superbus, -a, -um","arrogant, overbearing, haughty, proud"
+26,adjective,"tristis, triste","sad, sorrowful; joyless, grim, severe"
+26,adjective,"turpis, turpe","ugly, shameful, base, disgraceful"
+26,adjective,"urbanus, -a, -um","of the city, urban, urbane, elegant"
+26,preposition,prae,"in front of, before (takes ablative)"
+26,"adverb, conjunction",quam,"(after comparatives) than; (with superlatives) as...as possible (e.g. quam fortissimus, as great as possible)"
+26,adverb,tantum,only
+26,verb (1),"invito, invitare, invitavi, invitatum","to entertain, invite, summon"
+27,noun (3),"delectatio, delectationis, f.","delight, pleasure, enjoyment"
+27,noun (3),"nepos, nepotis, m.","grandson, descendant"
+27,noun (3),"sol, solis, m.",sun
+27,adjective,diligens,"diligent, careful (genitive diligentis)"
+27,adjective,"dissimilis, dissimile","unlike, different"
+27,adjective,"gracilis, gracile","slender, thin"
+27,adjective,"humilis, humile","lowly, humble"
+27,adjective,"maior, -ius","greater, older; (plural) ancestors"
+27,adjective,"primus, -a, -um","first, foremost, chief, principal"
+27,adjective,quot,"how many, as many as (indeclinable)"
+27,adjective,"similis, simile","similar (to), like, resembling"
+27,adjective,"superus, -a, -um","above, upper"
+27,adjective,"utilis, utile","useful, advantageous"
+27,adjective,"melior, -ius",better
+27,adjective,"peior, -ius",worse
+27,adjective,plus,"more (NB no masc. and fem. or dat. sing; abl. sing. plure, gen. plur. plurium, neut. pl. plura)"
+27,adjective,"minor, minus",smaller
+27,adjective,"prior, -ius",former
+27,adjective,"superior, -ius",higher
+27,adjective,"optimus, -a, -um",best
+27,adjective,"maximus, -a, -um",greatest
+27,adjective,"pessimus, -a, -um",worst
+27,adjective,"plurimus, -a, -um",most
+27,adjective,"minimus, -a, -um",smallest
+27,adjective,"summus, -a, -um","highest, furthest"
+27,adjective,"supremus, -a, -um","highest, last"
+27,verb (3),"pono, ponere, posui, positum","to put, place, set"
+27,verb (1),"probo, probare, probavi, probatum","to test, approve, recommend"
+28,noun (2),"arma, -orum, n.","arms, weapons (always plural)"
+28,noun (4),"cursus, -us, m.","running, race; course"
+28,noun (1),"luna, -ae, f.",moon
+28,noun (3),"occasio, occasionis, f.","occasion, opportunity"
+28,noun (3),"parens, parentis, m. or f.",parent
+28,noun (1),"stella, -ae, f.","star, planet"
+28,noun (3),"vesper, vesperis, m.",evening (genitive singular may also be vesperi)
+28,adjective,"mortuus, -a, -um",dead
+28,adjective,princeps,"chief, foremost; (m. or f. noun) leader, emperor (genitive principis)"
+28,conjunction,ut (+ subj.),"in order that, so that, that, in order to, so as to, to; (with indicative) as, when"
+28,"adverb, conjunction",ne,"not; in order that...not, that...not, in order not to"
+28,verb (3),"cedo, cedere, cessi, cessum","to go, withdraw; yield to, grant, submit"
+28,verb (1),"dedico, dedicare, dedicavi, dedicatum",to dedicate
+28,verb (2),"egeo, egere, egui, -","to need, lack, want"
+28,verb (2),"expleo, explere, explevi, expletum","to fill, fill up, complete"
+28,verb (1),"praesto, praestare, praestiti, praestitum","to excel; exhibit, show, offer, supply, furnish"
+28,verb (2),"taceo, tacere, tacui, tacitum","to be silent, leave unmentioned"
+29,noun (2),"fatum, -i, n.","fate, death"
+29,noun (2),"ingenium, -ii, n.","nature, innate talent"
+29,noun (3i),"moenia, moenium, n.",walls of a city (always plural)
+29,noun (1),"nata, -ae, f.",daughter
+29,noun (2),"osculum, -i, n.",kiss
+29,noun (3),"sidus, sideris, n.","constellation, star"
+29,adjective,"dignus, -a, -um","worthy, worthy of"
+29,adjective,"durus, -a, -um","hard, harsh, rough, stern, unfeeling, hardy, difficult"
+29,adjective,"tantus, -a, -um","so large, so great, of such a size"
+29,adverb,denique,"at last, finally, lastly"
+29,adverb,ita,"so, thus"
+29,adverb,quidem,"indeed, certainly, at least, even (ne...quidem: not...even)"
+29,adverb,sic,"so, thus"
+29,adverb,tam,"so, to such a degree (tam...quam: so...as)"
+29,adverb,vero,"in truth, indeed, to be sure, however"
+29,verb (3),"condo, condere, condidi, conditum","to put together, put into, store; found, establish"
+29,verb (3),"contendo, contendere, contendi, contentum","to strive, struggle, contend; hasten"
+29,verb (4),"mollio, mollire, mollivi, mollitum","to soften; make calm, make less hostile"
+29,verb (1),"pugno, pugnare, pugnavi, pugnatum",to fight
+29,verb (2),"respondeo, respondere, respondi, responsum",to answer
+29,verb (3),"surgo, surgere, surrexi, surrectum","to get up, arise"
+30,noun (3),"honor, honoris, m.","honor, esteem; public office"
+30,adjective,"ceteri, -ae, -a","the remaining, the rest, the other, all the others (always plural)"
+30,adjective,"quantus, -a, -um","how large, how great, how much"
+30,adjective,"ridiculus, -a, -um","laughable, ridiculous"
+30,adjective,"vivus, -a, -um","alive, living"
+30,adverb,furtim,"stealthily, secretly"
+30,adverb,mox,soon
+30,adverb,primo,"at first, at the beginning"
+30,adverb,repente,suddenly
+30,adverb,unde,"whence, from what, from which place, from which, from whom"
+30,"adverb, conjunction",utrum...an,whether...or
+30,verb (3),"bibo, bibere, bibi, -",to drink
+30,verb (3),"cognosco, cognoscere, cognovi, cognitum","to become acquainted with, learn, recognize; (in perf.) know"
+30,verb (3),"comprehendo, comprehendere, comprehendi, comprehensum","to grasp, seize, arrest; comprehend, understand"
+30,verb (3),"consumo, consumere, consumpsi, consumptum","to consume, use up"
+30,verb (1),"dubito, dubitare, dubitavi, dubitatum","to doubt, hesitate"
+30,verb (3),"expono, exponere, exposui, expositum","to set forth, explain, expose"
+30,verb (3),"minuo, minuere, minui, minutum","to lessen, diminish"
+30,verb (1),"rogo, rogare, rogavi, rogatum",to ask
+31,noun (3),"as, assis, m.","an as (a small copper coin, roughly equivalent to a penny)"
+31,noun (2),"auxilium, -ii, n.","aid, help"
+31,noun (2),"digitus, -i, m.","finger, toe"
+31,noun (2),"elephantus, -i, m.",elephant
+31,noun (2),"exsilium, -ii, n.","exile, banishment"
+31,noun (1),"invidia, -ae, f.","envy, jealousy, hatred"
+31,noun (3),"rumor, rumoris, m.","rumor, gossip"
+31,noun (2),"vinum, -i, n.",wine
+31,adjective,"mediocris, medicre","ordinary, moderate, mediocre"
+31,conjunction,cum,"(with subj.) when, since, although; (with indic.) when"
+31,preposition,apud,"among, in the presence of, at the house of (takes accusative)"
+31,adverb,semel,"a single time, once, once and for all, simultaneously"
+31,adverb,usque,"all the way, up (to), even (to), continuously, always"
+31,verb (2),"doleo, dolere, dolui, doliturum","to grieve, suffer, hurt, give pain"
+31,verb (4),"dormio, dormire, dormivi, dormitum",to sleep
+31,verb (3),"fero, ferre, tuli, latum","to bear, carry, bring; suffer, endure, tolerate; say, report"
+31,verb (3),"adfero, adferre, attuli, allatum",to bring to
+31,verb (3),"confero, conferre, contuli, collatum","to bring together, compare; confer, bestow (se conferre: betake onself, go)"
+31,verb (3),"offero, offerre, obtuli, oblatum",to offer
+31,verb (3),"refero, referre, rettuli, relatum","to carry back, bring back; repeat, answer, report"
+31,verb (2),"invideo, invidere, invidi, invisum","to be envious; to look at with envy, envy, be jealous of"
+31,verb (3),"occido, occidere, occidi, occasum",to fall down; die; set
+32,noun (1),"custodia, -ae, f.","protection, custody; (plural) guards"
+32,noun (4),"exercitus, -us, m.",army
+32,noun (3),"paupertas, paupertatis, f.","poverty, humble circumstance"
+32,adjective,dives,rich (genitive divitis or ditis)
+32,adjective,par,"equal, like (genitive paris)"
+32,adjective,pauper,"of small means, poor (genitive pauperis)"
+32,conjunction,dummodo,"(with subj.) provided that, so long as"
+32,adverb,longe,far
+32,adverb,libere,freely
+32,adverb,pulchre,beautifully
+32,adverb,fortiter,bravely
+32,adverb,celeriter,quickly
+32,adverb,acriter,keenly
+32,adverb,feliciter,happily
+32,adverb,sapienter,wisely
+32,adverb,facile,easily
+32,adverb,bene,well
+32,adverb,male,badly
+32,adverb,multum,much
+32,adverb,magnopere,greatly
+32,adverb,parum,"little, not very (much)"
+32,adverb,diu,for a long time
+32,verb (irregular),"malo, malle, malui, -","to want (something) more, instead; prefer"
+32,verb (irregular),"nolo, nolle, nolui, -","to not...wish, be unwilling"
+32,verb (2),"pateo, patere, patui, -","to be open, lie open, be accessible, be evident"
+32,verb (2),"praebeo, praebere, praebui, praebitum","to offer, provide"
+32,verb (3),"promitto, promittere, promisi, promissum",to send forth; promise
+32,verb (irregular),"volo, velle, volui, -","to wish, want, be willing, will"
+33,noun (2),"initium, -ii, n.","beginning, commencement"
+33,noun (3),"ops, opis, f.","help, aid; (plural) power, resources, wealth"
+33,noun (2),"philosophus, -i, m.",philosopher
+33,noun (1),"philosopha, -ae, f.",philosopher
+33,noun (3),"plebs, plebis, f.","the common people, populace, plebians"
+33,noun (3),"sal, salis, m.",salt; wit
+33,noun (2),"speculum, -i, n.",mirror
+33,pronoun,"quis, quid","(after si, nisi) anyone, anything, someone, something"
+33,adjective,"candidus, -a, -um","shining, bright, white; beautiful"
+33,adjective,"merus, -a, -um","pure, undiluted"
+33,adjective,"suavis, suave",sweet
+33,"enclitic, conjunction",#NAME?,or
+33,interjection,heu,"ah!, alas! (a sound of grief or pain)"
+33,adverb,subito,suddenly
+33,verb (1),"recuso, recusare, recusavi, recusatum",to refuse
+33,verb (3),"trado, tradere, tradidi, traditum","to give over, surrender; hand down, transmit, teach"
+34,noun (1),"anima, -ae, f.","soul, spirit"
+34,noun (3),"remissio, remissionis, f.","letting go, release; relaxation"
+34,noun (3),"vox, vocis, f.","voice, word"
+34,adjective,"adversus, -a, -um","opposite, adverse"
+34,adjective,"talis, tale","such, of such a sort"
+34,interjection,vae,"alas, woe to"
+34,verb (1),"arbitror, arbitrari, arbitratus sum, -","to judge, think"
+34,verb (1),"conor, conari, conatus sum, -","to try, attempt"
+34,verb (3),"cresco, crescere, crevi, cretum",to increase
+34,verb (3i),"egredior, egredi, egressus sum, -",to go out
+34,verb (2),"fateor, fateri, fassus sum, -","to confess, admit"
+34,verb (1),"hortor, hortari, hortatus sum, -","to encourage, urge"
+34,verb (3),"loquor, loqui, locutus sum, -","to say, speak, tell"
+34,verb (4),"molior, moliri, molitus sum, -","to work at, build, undertake, plan"
+34,verb (3i),"morior, mori, mortuus sum, -",to die
+34,verb (3),"nascor, nasci, natus sum, -","to be born; spring forth, arise"
+34,verb (3i),"patior, pati, passus sum, -","to suffer, endure, permit"
+34,verb (3),"proficiscor, proficisci, profectus sum, -","to set out, start"
+34,verb (1),"rusticor, rusticari, rusticatus sum, -",to live in the country
+34,verb (2),"sedeo, sedere, sedi, sessum",to sit
+34,verb (3),"sequor, sequi, secutus sum, -",to follow
+34,verb (1),"specto, spectare, spectavi, spectatum","to look at, see"
+34,verb (3),"utor, uti, usus sum, -","to use; enjoy, experience"
+35,noun (3),"aestas, aestatis, f.",summer
+35,noun (1),"ianua, -ae, f.",door
+35,noun (3),"pectus, pectoris, n.","breast, heart"
+35,noun (2),"praemium, -ii, n.","reward, prize"
+35,adjective,"iratus, -a, -um",angry
+35,verb (3),"antepono, anteponere, anteposui, antepositum","to put before, prefer"
+35,verb (3),"foveo, fovere, fovi, fotum","to comfort, nurture, cherish"
+35,verb (3),"ignosco, ignoscere, ignovi, ignotum","to grant pardon to, forgive"
+35,verb (1),"impero, imperare, imperavi, imperatum","to give orders to, command"
+35,verb (1),"miror, mirari, miratus sum, -","to marvel at, admire, wonder"
+35,verb (2),"noceo, nocere, nocui, nocitum","to do harm to, harm, injure"
+35,verb (3),"nubo, nubere, nupsi, nuptum","to cover, veil; (with dat.) to be married to, marry"
+35,verb (3),"parco, parcere, peperci, parsurum","to be lenient to, spare"
+35,verb (2),"pareo, parere, parui, -","to be obedient to, obey"
+35,verb (2),"persuadeo, persuadere, persuasi, persuasum","to make sweet to, persuade"
+35,verb (2),"placeo, placere, placui, placitum","to be pleasing to, please"
+35,verb (3i),"sapio, sapere, sapivi, -","to have good taste; have good sense, be wise"
+35,verb (4),"servio, servire, servivi, servitum","to be a slave to, serve"
+35,verb (2),"studeo, studere, studui, -","to direct one's zeal to, be eager for, study"
+35,verb (2),"subrideo, subridere, subrisi, subrisum","to smile upon, to smile down upon"
+36,noun (3),"cupido, cupidinis, f.","desire, passion"
+36,noun (3),"lector, lectoris, m.",reader
+36,noun (3),"lectrix, lectricis, f.",reader
+36,noun (2),"vinculum, -i, n.","bond, chain, fetter"
+36,adverb,cotidie,"daily, every day"
+36,adverb,fortasse,perhaps
+36,verb (3),"accedo, accedere, accessi, accessum","to come (to), approach"
+36,verb (3),"carpo, carpere, carpsi, carptum","to harvest, pluck, seize"
+36,verb (3),"cogo, cogere, coegi, coactum","to drive together, bring together, force, compel"
+36,verb (3),"contemno, contemnere, contempsi, contemptum","to despise, scorn"
+36,verb (3),"contundo, contundere, contudi, contusum","to beat, crush, bruise, destroy"
+36,verb (1),"curo, curare, curavi, curatum","to care for, attend to; heal, cure; take care"
+36,verb (3),"decerno, decernere, decrevi, decretum","to decide, settle, decree"
+36,verb (3),"exigo, exigere, exegi, exactum","to drive out, force out, exact; drive through, complete, perfect"
+36,verb (irregular),"fio, fieri, factus sum, -","to occur, happen, become; be made, be done"
+36,verb (1),"oblecto, oblectare, oblectavi, oblectatum","to please, amuse, delight; pass time pleasantly"
+36,verb (1),"oro, orare, oravi, oratum","to speak, plead; beg, beseech, entreat"
+36,verb (1),"recreo, recreare, recreavi, recreatum","to restore, revive; refresh, cheer"
+36,verb (3),"requiro, requirere, requisivi, requisitum","to seek, ask for, miss, need, require"
+36,verb (1),"sereno, serenare, serenavi, serenatum","to make clear, brighten; cheer up, soothe"
+37,noun (1),"Athenae, -arum, f.",Athens (always plural)
+37,noun (4),"domus, -us, f.","house, home (NB 3 special uses and endings: domi -at home; domo from home; domum - to home)"
+37,noun (2),"humus, -i, f.","ground, earth, soil"
+37,noun (3),"iter, itineris, n.","road, route, journey"
+37,noun (3),"rus, ruris, n.","the country, countryside"
+37,noun (1),"Syracusae, -arum, f.",Syracuse (always plural)
+37,adjective,absens,"absent, away (gen. absentis)"
+37,adjective,"gratus, -a, -um","pleasing, agreeable; grateful"
+37,adjective,"idoneus, -a, -um","suitable, fit, appropriate"
+37,adjective,"immotus, -a, -um","unmoved, unchanged, unrelenting"
+37,adverb,foris,"out of doors, outside"
+37,verb (irregular),"eo, ire, ii, itum",to go
+37,verb (irregular),"abeo, abire, abii, abitum","to go away, depart"
+37,verb (irregular),"adeo, adire, adii, aditum","to go to, approach"
+37,verb (irregular),"exeo, exire, exii, exitum","to go out, exit"
+37,verb (irregular),"ineo, inire, inii, initum","to go in, enter"
+37,verb (irregular),"obeo, obire, obii, obitum","to go up against, meet; die"
+37,verb (irregular),"pereo, perire, perii, peritum","to pass away, be destroyed, perish"
+37,verb (irregular),"redeo, redire, redii, reditum","to go back, return"
+37,verb (3i),"interficio, interficere, interfeci, interfectum","to kill, murder"
+37,verb (irregular),"licet, licere, licuit, -","(impersonal) it is permitted, one may"
+37,verb (1),"peregrinor, peregrinari, peregrinatus sum, -","to travel abroad, wander"
+37,verb (3),"requiesco, requiescere, requievi, requietum",to rest
+37,verb (3),"soleo, solere, solitus sum, -",to be accustomed
+38,noun (3),"arbor, arboris, f.",tree
+38,noun (3),"dignitas, dignitatis, f.","merit, prestige, dignity"
+38,noun (3),"dolor, doloris, m.","pain, grief"
+38,noun (2),"odium, -ii, n.",hatred
+38,noun (3),"opus, operis, n.","a work, task; deed, accomplishment"
+38,noun (3),"oratio, orationis, f.",speech
+38,noun (3),"pes, pedis, m.","lower leg, foot"
+38,noun (3),"sator, satoris, m.","sower, planter; begetter, father; founder"
+38,adjective,"firmus, -a, -um","firm, strong, reliable"
+38,adjective,"infirmus, -a, -um","not strong, weak, feeble"
+38,adjective,"mirabilis, mirabile","amazing, wondrous, remarkable"
+38,adjective,"pristinus, -a, -um","ancient; former, previous"
+38,adjective,"sublimis, sublime","elevated, lofty; heroic, noble"
+38,conjunction,etsi,"even if, although"
+38,preposition,erga,toward (takes accusative)
+38,adverb,libenter,"with pleasure, gladly"
+38,verb (4),"impedio, impedire, impedivi, impeditum","to impede, hinder, prevent"
+38,verb (3),"metuo, metuere, metui, -","to fear, dread"
+38,verb (3),"queror, queri, questus sum, -","to complain, lament"
+38,verb (3),"recognosco, recognoscere, recognovi, recognitum","to recognize, recollect"
+38,verb (3),"suspendo, suspendere, suspendi, suspensum","to hang up, suspend; interrupt"
+38,verb (3),"vendo, vendere, vendidi, venditum",to sell
+39,noun (2),"aedificium, -ii, n.","building, structure"
+39,noun (1),"iniuria, -ae, f.","injustice, injury, wrong"
+39,noun (3),"mulier, mulieris, f.",woman
+39,noun (4),"transitus, -us, m.","passing over, transit, transition"
+39,noun (2),"ventus, -i, m.",wind
+39,adjective,"cupidus, -a, -um","desirous, eager, fond; (with gen.) desirous of, eager for"
+39,adjective,"liberalis, liberale","of or relating to a free person; worthy of a free man, decent, liberal; generous"
+39,adjective,necesse,"necessary, inevitable (indeclinable)"
+39,adjective,vetus,old (genitive veteris)
+39,"adverb, conjunction",quasi,"as if, as it were"
+39,verb (1),"ambulo, ambulare, ambulavi, ambulatum",to walk
+39,verb (4),"experior, experiri, expertus sum, -","to try, test, experience"
+39,verb (1),"libo, libare, libavi, libatum","to pour a libation of, pour a libation on; to pour ritually; to sip, touch gently"
+39,verb (irregular),"oportet, oportere, oportuit, -","it is proper, right, necessary"
+39,verb (1),"oppugno, oppugnare, oppugnavi, oppugnatum","to fight against, attack, assault, assail"
+39,verb (1),"orno, ornare, ornavi, ornatum","to equip, furnish, adorn"
+39,verb (1),"pernocto, pernoctare, pernoctavi, pernoctatum","to spend the night, occupy the night"
+39,verb (irregular),"transeo, transire, transii, transitum","to go across, cross; pass over, ignore"
+40,noun (3),"aes, aeris, n.",bronze
+40,noun (2),"dominus, -i, m.","master (of a household), lord"
+40,noun (1),"domina, -ae, f.","mistress, lady"
+40,noun (1),"lacrima, -ae, f.",tear
+40,noun (1),"meta, -ae, f.","turning post, goal; limit"
+40,noun (2),"monumentum, -i, n.",monument
+40,noun (2),"nasus, -i, m.",nose
+40,noun (2),"saxum, -i, n.","rock, stone"
+40,noun (4),"vultus, -us, m.","countenance, face"
+40,adjective,"iustus, -a, -um","just, right"
+40,adjective,tot,so many (indeclinable)
+40,preposition,praeter,"besides, except; beyond past (takes accusative)"
+40,adverb,nonne,yes question (introduces questions expecting the answer yes)
+40,adverb,num,no question; whether (introduces questions expecting the answer no; introduces indirect questions and means whether)
+40,adverb,"omnino, adv.","wholly, entirely, altogether"
+40,adverb,postremum,"after all, finally; for the last time"
+40,adverb,quin,"indeed, in fact"
+40,verb (1),"explico, explicare, explicavi, explicatum","to unfold, explain; spread out, deploy"
+40,verb (1),"fatigo, fatigare, fatigavi, fatigatum","to weary, tire out"
+40,verb (1),"for, fari, fatus sum, -","to speak (prophetically), talk, foretell"
+40,verb (1),"opinor, opinari, opinatus sum, -",to suppose
+40,verb (4),"reperio, reperire, repperi, repertum","to find, discover, learn, get"
+40,verb (4),"vereor, vereri, vertus sum, -","to show reverence for, respect; be afraid of, fear"

@@ -1,0 +1,1 @@
+import{F as e,L as t,O as n,rt as r,wt as i}from"../chunks/6klcJOIi.js";var a=t(`<article class="about-pages"><!></article>`);function o(t,o){var s=a(),c=r(s);n(c,()=>o.children),i(s),e(t,s)}export{o as component};

@@ -1,0 +1,10 @@
+{
+	"version": "pyodide-314.0.7+omnes_formae-0.3.0",
+	"sizes": {
+		"engine/omnes_formae-v0.3.0.zip": 1287721,
+		"engine/vocab.csv": 53131,
+		"pyodide/pyodide.asm.wasm": 9598218,
+		"pyodide/python_stdlib.zip": 2545637,
+		"pyodide/pyodide-lock.json": 119077
+	}
+}
